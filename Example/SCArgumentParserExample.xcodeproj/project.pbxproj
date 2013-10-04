@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63AD81D717FF34BD00C83C32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AD81D617FF34BD00C83C32 /* Foundation.framework */; };
+		63AD81DA17FF34BD00C83C32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD81D917FF34BD00C83C32 /* main.m */; };
+		63AD81ED17FF37FA00C83C32 /* SCArgumentDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD81E617FF37FA00C83C32 /* SCArgumentDefinition.m */; };
+		63AD81EE17FF37FA00C83C32 /* SCArgumentParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD81E817FF37FA00C83C32 /* SCArgumentParser.m */; };
+		63AD81EF17FF37FA00C83C32 /* SCArgumentParserError.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD81EA17FF37FA00C83C32 /* SCArgumentParserError.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		63AD81D117FF34BD00C83C32 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		63AD81D317FF34BD00C83C32 /* SCArgumentParserExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SCArgumentParserExample; sourceTree = BUILT_PRODUCTS_DIR; };
+		63AD81D617FF34BD00C83C32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		63AD81D917FF34BD00C83C32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63AD81DC17FF34BD00C83C32 /* SCArgumentParserExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SCArgumentParserExample-Prefix.pch"; sourceTree = "<group>"; };
+		63AD81E517FF37FA00C83C32 /* SCArgumentDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCArgumentDefinition.h; sourceTree = "<group>"; };
+		63AD81E617FF37FA00C83C32 /* SCArgumentDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCArgumentDefinition.m; sourceTree = "<group>"; };
+		63AD81E717FF37FA00C83C32 /* SCArgumentParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCArgumentParser.h; sourceTree = "<group>"; };
+		63AD81E817FF37FA00C83C32 /* SCArgumentParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCArgumentParser.m; sourceTree = "<group>"; };
+		63AD81E917FF37FA00C83C32 /* SCArgumentParserError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCArgumentParserError.h; sourceTree = "<group>"; };
+		63AD81EA17FF37FA00C83C32 /* SCArgumentParserError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCArgumentParserError.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63AD81D017FF34BD00C83C32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63AD81D717FF34BD00C83C32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63AD81CA17FF34BD00C83C32 = {
+			isa = PBXGroup;
+			children = (
+				63AD81D817FF34BD00C83C32 /* SCArgumentParserExample */,
+				63AD81D517FF34BD00C83C32 /* Frameworks */,
+				63AD81D417FF34BD00C83C32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63AD81D417FF34BD00C83C32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63AD81D317FF34BD00C83C32 /* SCArgumentParserExample */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63AD81D517FF34BD00C83C32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63AD81D617FF34BD00C83C32 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63AD81D817FF34BD00C83C32 /* SCArgumentParserExample */ = {
+			isa = PBXGroup;
+			children = (
+				63AD81D917FF34BD00C83C32 /* main.m */,
+				63AD81E417FF37FA00C83C32 /* Classes */,
+				63AD81DB17FF34BD00C83C32 /* Supporting Files */,
+			);
+			path = SCArgumentParserExample;
+			sourceTree = "<group>";
+		};
+		63AD81DB17FF34BD00C83C32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63AD81DC17FF34BD00C83C32 /* SCArgumentParserExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63AD81E417FF37FA00C83C32 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				63AD81E517FF37FA00C83C32 /* SCArgumentDefinition.h */,
+				63AD81E617FF37FA00C83C32 /* SCArgumentDefinition.m */,
+				63AD81E717FF37FA00C83C32 /* SCArgumentParser.h */,
+				63AD81E817FF37FA00C83C32 /* SCArgumentParser.m */,
+				63AD81E917FF37FA00C83C32 /* SCArgumentParserError.h */,
+				63AD81EA17FF37FA00C83C32 /* SCArgumentParserError.m */,
+			);
+			name = Classes;
+			path = ../../Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63AD81D217FF34BD00C83C32 /* SCArgumentParserExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63AD81E117FF34BD00C83C32 /* Build configuration list for PBXNativeTarget "SCArgumentParserExample" */;
+			buildPhases = (
+				63AD81CF17FF34BD00C83C32 /* Sources */,
+				63AD81D017FF34BD00C83C32 /* Frameworks */,
+				63AD81D117FF34BD00C83C32 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCArgumentParserExample;
+			productName = SCArgumentParser;
+			productReference = 63AD81D317FF34BD00C83C32 /* SCArgumentParserExample */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63AD81CB17FF34BD00C83C32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Sebastian Celis";
+			};
+			buildConfigurationList = 63AD81CE17FF34BD00C83C32 /* Build configuration list for PBXProject "SCArgumentParserExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 63AD81CA17FF34BD00C83C32;
+			productRefGroup = 63AD81D417FF34BD00C83C32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63AD81D217FF34BD00C83C32 /* SCArgumentParserExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63AD81CF17FF34BD00C83C32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63AD81ED17FF37FA00C83C32 /* SCArgumentDefinition.m in Sources */,
+				63AD81EE17FF37FA00C83C32 /* SCArgumentParser.m in Sources */,
+				63AD81DA17FF34BD00C83C32 /* main.m in Sources */,
+				63AD81EF17FF37FA00C83C32 /* SCArgumentParserError.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		63AD81DF17FF34BD00C83C32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		63AD81E017FF34BD00C83C32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		63AD81E217FF34BD00C83C32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SCArgumentParserExample/SCArgumentParserExample-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		63AD81E317FF34BD00C83C32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SCArgumentParserExample/SCArgumentParserExample-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63AD81CE17FF34BD00C83C32 /* Build configuration list for PBXProject "SCArgumentParserExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63AD81DF17FF34BD00C83C32 /* Debug */,
+				63AD81E017FF34BD00C83C32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63AD81E117FF34BD00C83C32 /* Build configuration list for PBXNativeTarget "SCArgumentParserExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63AD81E217FF34BD00C83C32 /* Debug */,
+				63AD81E317FF34BD00C83C32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63AD81CB17FF34BD00C83C32 /* Project object */;
+}
