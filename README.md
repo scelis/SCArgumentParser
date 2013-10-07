@@ -12,4 +12,4 @@ To include SCArgumentParser in your applications, clone the SCArgumentParser rep
 
 See the included Xcode project (specifically the [`main.m`][main.m] source file) for a detailed example of how to use SCArgumentParser.
 
-[main.m]: https://github.com/scelis/SCArgumentParser/Example/SCArgumentParserExample/main.m
+[main.m]: https://github.com/scelis/SCArgumentParser/blob/master/Example/SCArgumentParserExample/main.m
